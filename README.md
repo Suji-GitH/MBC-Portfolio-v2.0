@@ -3,7 +3,7 @@ Updated Portfolio
 
 ## Application & Repository Link
 
-###### [Application Link](https://suji-gith.github.io/MBC-Portfolio-v2.0/index.html)
+###### [Application Link](https://suji-gith.github.io/MBC-Portfolio-v2.0/)
 
 ###### [Repository Link](https://github.com/Suji-GitH/MBC-Portfolio-v2.0)
 
@@ -30,9 +30,9 @@ Initial Portfolio was made with only HTML and Bootstrap CSS framework. HTML layo
 
 * Updated LinkedIn profile
 
-## UI/UX-Application-Screens
+## UI/UX Application-Screens
 
-###### UI/UX-Consideration
+###### UI/UX Consideration
 
 The main UI/UX consideration made for updating of the Portfolio is simplifying everything down to give it the minimalist design. 
 
@@ -40,22 +40,22 @@ User is given clearly the 3 options under the name title to explore. Each option
 
 Further more animation is added for loading texts, Portfolio projects have double images which changes over hover to not crowd the screen with multiple images, any link items are opened in a new tab so user can still have access to the Portfolio Page. 
 
-###### App-Screenshots
+###### App Screenshots
 
 Landing Page
-<img src = "./assets/img/ScreenShots/Initial_wireframe.jpg">
-
-About
 <img src = "./assets/img/ScreenShots/LandingPage.jpg">
 
+About
+<img src = "./assets/img/ScreenShots/About.jpg">
+
 Portfolio
-<img src = "./assets/img/ScreenShots/LandingPage5.jpg">
+<img src = "./assets/img/ScreenShots/Portfolio.jpg">
 
 Portfolio Project
-<img src = "./assets/img/ScreenShots/SearchedView.jpg">
+<img src = "./assets/img/ScreenShots/PortfolioProject.jpg">
 
 Contact
-<img src = "./assets/img/ScreenShots/SearchedView5.jpg">
+<img src = "./assets/img/ScreenShots/Contact.jpg">
 
 Portfolio - Mobile View <br>
 <img src = "./assets/img/ScreenShots/MobileView.jpg">
@@ -66,6 +66,9 @@ Portfolio - Mobile View <br>
     - Google Fonts
     - Favicon.io 
     - jQuery
+    - jQuery Delivery
+    - Smtpjs 
+    - Base cursor trail (https://codepen.io/falldowngoboone/pen/PwzPYv)
 
 ## Testing
 
@@ -88,9 +91,3 @@ As a User, when I click on GitHub or linkedIn button, I am redirected in a new t
 As a User, when I click on mail or phone button, I am presented with my email and phone number. 
 
 As a system, when user submits, name and email is validated.
-
-
-
-
-    
-
