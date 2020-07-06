@@ -58,7 +58,7 @@ Contact
 <img src = "./assets/img/Screenshots/Contact.jpg">
 
 Portfolio - Mobile View <br>
-<img src = "./assets/img/ScreesShots/MobileView.jpg">
+<img src = "./assets/img/Screenshots/MobileView.jpg">
 
 ## Credits
 
