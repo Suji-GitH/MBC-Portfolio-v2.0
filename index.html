@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+
+	<!-- fav icon -->
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+	<!-- UIkit style sheet -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poiret+One&display=swap" rel="stylesheet">
+	<!-- Own style sheet-->
+	<link rel="stylesheet" href="./assets/css/style.css" />
+
+</head>
+
+<body>
+	<!-- Main Navigation Start -->
+	<section class="main">
+		<!-- Name Title -->
+		<h1>
+			<span>S</span>
+			<span>U</span>
+			<span>J</span>
+			<span>I</span>
+			<span>T</span>
+			<span>H</span>
+		</h1>
+		<!-- Navigation to About, Portfolio, and Contact -->
+		<div class="nav">
+			<h3><a class="uk-link-heading" href="#modal-center" uk-toggle>About</a></h3>
+			<h3><a class="uk-link-heading centerNav">Portfolio</a></h3>
+			<h3><a class="uk-link-heading" uk-toggle="target: #offcanvas-slide">Contact</a></h3>
+		</div>
+		<!-- Portfolio Navigation -->
+		<section class="portfolioBtns">
+			<button class="uk-button uk-button-text" href="#modal-PFP" uk-toggle>Personal Fitness Planner</button>
+			<button class="uk-button uk-button-text centerNav" href="#modal-WD" uk-toggle>Weather Dashboard</button>
+			<button class="uk-button uk-button-text" href="#modal-PG" uk-toggle>Password Generator</button>
+		</section>
+	</section>
+	<!-- Main Navigation End -->
+
+	<!-- About Me Modal Start -->
+	<div id="modal-center" class="uk-flex-center uk-animation-fade" uk-modal>
+		<div class="uk-light uk-background-secondary uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+			<button class="uk-modal-close-default" type="button" uk-close></button>
+			<!-- Title -->
+			<h3 class="uk-modal-title">About</h3>
+			<hr>
+			<!-- Bio -->
+			<p>
+				Full stack web developer with experiences in various process automation platform and RPA. Certificate
+				from Monash Boot Camp in full stack web technologies, including JavaScript, CSS, HTML, and Node.js, and
+				proficiency with k2, Nintex, Uipath, and VisualKpI. Also worked/ran both agile and waterfall methodology
+				adapted project, and involved in presales of in house built tool. Fascinated by the growing technology
+				to be able to automate tasks. My technical aptitude in cutting-edge web technologies, combined with
+				overall adaptive skills and mindset make me a strong addition to any project.
+			</p>
+			<hr class="uk-divider-icon">
+		</div>
+	</div>
+	<!-- About Me Modal End -->
+
+	<!-- Modal Personal Fitness Planner Start -->
+	<div id="modal-PFP" class="uk-modal-full" uk-modal>
+		<div class="uk-modal-dialog">
+			<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+			<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+				<!-- Background Side Image -->
+				<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+					<div class="uk-background-cover" style="background-image: url('./assets/img/Screenshots/PFP.jpg');"
+					uk-height-viewport></div>
+					<div class="uk-transition-scale-up uk-background-cover uk-position-cover" style="background-image: url('./assets/img/Screenshots/PFP2.jpg');"
+					uk-height-viewport></div>
+				</div>
+				<div class="uk-padding-large">
+					<!-- Title -->
+					<h1>Personal Fitness Planner</h1>
+					<!-- App Description -->
+					<p>
+						With recent event of global pandemic, your whole gym routine and schedule are thrown off and with restriction slowly lifting away, people will be getting back at it. However you would need a new routine and schedule to get back to where you were. 
+
+						The application Personal Fitness Planner(PFP) was built as solution to this problem. It simply Generates your personalized fitness plan according to your fitness goal. 
+					</p>
+					<!-- Application and Repository Buttons -->
+					<a class="uk-button uk-button-secondary uk-button-small" href="https://ben-j-st.github.io/projectOne---bootcamp/index.html" target="_blank">Application Link</a>
+					<a class="uk-button uk-button-default uk-button-small" href="https://github.com/ben-j-st/projectOne---bootcamp" target="_blank">Repository Link</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Personal Fitness Planner End -->
+
+	<!-- Modal Weather Dashboard Start -->
+	<div id="modal-WD" class="uk-modal-full" uk-modal>
+		<div class="uk-modal-dialog">
+			<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+			<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+				<!-- Background Side Image -->
+				<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+					<div class="uk-background-top-left uk-background-cover" style="background-image: url('./assets/img/Screenshots/WeatherDash.jpg');"
+					uk-height-viewport></div>
+					<div class="uk-transition-scale-up uk-background-cover uk-position-cover" style="background-image: url('./assets/img/Screenshots/WeatherDash2.jpg');"
+					uk-height-viewport></div>
+				</div>
+				<div class="uk-padding-large">
+					<!-- Title -->
+					<h1>Weather Dashboard</h1>
+					<!-- App Description -->
+					<p>
+						This is a Weather Dashboard application built for Globe trotter that wants to see the weather outlook for multiple cities so they can plan a trip accordingly. The app also accommodates for 5-Day forecast and my personal highlight for the application is the change of backgrounds according to the weather condition. 
+					</p>
+					<!-- Application and Repository Buttons -->
+					<a class="uk-button uk-button-secondary uk-button-small" href="https://suji-gith.github.io/MBC-WeatherDashboard/WeatherDashboard.html" target="_blank">Application Link</a>
+					<a class="uk-button uk-button-default uk-button-small" href="https://github.com/Suji-GitH/MBC-WeatherDashboard" target="_blank">Repository Link</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Weather Dashboard End -->
+
+	<!-- Modal Password Generator Start -->
+	<div id="modal-PG" class="uk-modal-full" uk-modal>
+		<div class="uk-modal-dialog">
+			<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+			<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+				<!-- Background Side Image -->
+				<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+					<div class="uk-background-cover" style="background-image: url('./assets/img/Screenshots/PassGen.jpg');"
+					uk-height-viewport></div>
+					<div class="uk-transition-scale-up uk-background-cover uk-position-cover" style="background-image: url('./assets/img/Screenshots/PassGen2.jpg');"
+					uk-height-viewport></div>
+				</div>
+				<div class="uk-padding-large">
+					<!-- Title -->
+					<h1>Password Generator</h1>
+					<!-- App Description -->
+					<p>
+						 This is a Matrix themed random password generator that meets certain criteria to create a strong password that provides greater security. Follow the input textarea description to begin, there are multiple buttons but one of them does a little more than generate the a password! 
+					</p>
+					<!-- Application and Repository Buttons -->
+					<a class="uk-button uk-button-secondary uk-button-small" href="https://suji-gith.github.io/MBC-PasswordGenerator/Rdm-PassGen.html" target="_blank">Application Link</a>
+					<a class="uk-button uk-button-default uk-button-small" href="https://github.com/Suji-GitH/MBC-PasswordGenerator" target="_blank">Repository Link</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Password Generator End -->
+
+	<!-- Contacts Start -->
+	<div id="offcanvas-slide" uk-offcanvas="overlay: true; flip: true">
+		<div class="uk-offcanvas-bar">
+			<!-- Contact title -->
+			<h2>Contact</h2>
+			<!-- Contact Form -->
+			<button class="uk-offcanvas-close" type="button" uk-close></button>
+			<form id="myForm">
+				<!-- Name Field -->
+				<label class="uk-form-label" for="form-stacked-text">Name</label>
+				<div class="uk-margin">
+					<div class="uk-inline">
+						<span class="uk-form-icon" uk-icon="icon: user"></span>
+						<input class="uk-input" type="text" required>
+					</div>
+				</div>
+				<!-- Email Field -->
+				<label class="uk-form-label" for="form-stacked-text">Email</label>
+				<div class="uk-margin">
+					<div class="uk-inline">
+						<span class="uk-form-icon" uk-icon="icon: mail"></span>
+						<input class="uk-input" type="email" required>
+					</div>
+				</div>
+				<!-- Message Field -->
+				<label class="uk-form-label" for="form-stacked-text">Message</label>
+				<div class="uk-margin">
+					<div class="uk-inline">
+						<span class="uk-form-icon" uk-icon="icon: comment"></span>
+						<input class="uk-input uk-form-large" type="text" required>
+					</div>
+				</div>
+				<!-- Submit Button -->
+				<button id="submitBtn" class="uk-button uk-button-text">Submit</button>
+			</form>
+			<!-- Social Contacts -->
+			<div class="myDetails">
+				<!-- GitHub -->
+				<a href="https://github.com/Suji-GitH" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="github"></a>
+				<!-- LinkedIn -->
+				<a href="https://www.linkedin.com/in/suji-r-8550a01a5/" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="linkedin"></a>
+				<!-- Email -->
+				<a class="uk-icon-button uk-margin-small-right" uk-icon="mail" uk-toggle="target: #toggle-mail"></a>
+				<!-- Phone -->
+				<a class="uk-icon-button uk-margin-small-right" uk-icon="receiver" uk-toggle="target: #toggle-phone"></a>
+				<!-- Email & Phone details -->
+				<p id="toggle-mail">Email: Sujithranjitk@gmail.com</p>
+				<p id="toggle-phone">Mobile: 0430 165 467</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+	<!-- jqueryvalidation -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
+
+	<script src="https://smtpjs.com/v3/smtp.js">
+	</script>
+
+	<!-- jquery  script link -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<script>
+
+	const ABOUT = $(".uk-link-heading").eq(0);
+	const PORTFOLIO = $(".uk-link-heading").eq(1);
+	const CONTACT = $(".uk-link-heading").eq(2);
+	const $PORTFOLIO_BTNS = $(".portfolioBtns");
+
+	//Hide portfolio buttons when landing
+	$PORTFOLIO_BTNS.hide();
+	UIkit.toggle("#toggle-mail").toggle();
+	UIkit.toggle("#toggle-phone").toggle();
+	
+	//Hide portfolio sub buttons on click
+	PORTFOLIO.on("click", function(){
+		$PORTFOLIO_BTNS.show();
+	});
+
+	ABOUT.on("click", function(){
+		$PORTFOLIO_BTNS.hide();
+	});
+
+	//Function to hide portfolio sub buttons
+	CONTACT.on("click", function(){
+		$PORTFOLIO_BTNS.hide();
+	});
+
+	//Validate Contact Form
+	$("#myForm").validate();
+
+	Email.send({
+    SecureToken : "053968d2-e9e6-43c5-8b7e-be1c47d4fd80",
+    To : 'sujithranjitk@gmail.com',
+    From : "sujithranjitk@gmail.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+	}).then(
+	message => alert("sent")
+	);
+
+
+	</script>
+
+</body>
+</html>
