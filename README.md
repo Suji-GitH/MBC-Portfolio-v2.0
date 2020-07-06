@@ -43,22 +43,22 @@ Further more animation is added for loading texts, Portfolio projects have doubl
 ###### App Screenshots
 
 Landing Page
-<img src = "./assets/img/ScreenShots/LandingPage.jpg">
+<img src = "./assets/img/Screenshots/LandingPage.jpg">
 
 About
-<img src = "./assets/img/ScreenShots/About.jpg">
+<img src = "./assets/img/Screenshots/About.jpg">
 
 Portfolio
-<img src = "./assets/img/ScreenShots/Portfolio.jpg">
+<img src = "./assets/img/Screenshots/Portfolio.jpg">
 
 Portfolio Project
-<img src = "./assets/img/ScreenShots/PortfolioProject.jpg">
+<img src = "./assets/img/Screenshots/PortfolioProject.jpg">
 
 Contact
-<img src = "./assets/img/ScreenShots/Contact.jpg">
+<img src = "./assets/img/Screenshots/Contact.jpg">
 
 Portfolio - Mobile View <br>
-<img src = "./assets/img/ScreenShots/MobileView.jpg">
+<img src = "./assets/img/ScreesShots/MobileView.jpg">
 
 ## Credits
 
