@@ -1,3 +1,9 @@
+body {
+	cursor: crosshair;
+	margin: 0;
+	height: 100vh;
+}
+
 /* Main Style */
 .main {
 	margin: 0;
@@ -27,7 +33,7 @@
 
 /* Main Nav Hover Effect */
 .nav h3 a:hover {
-	color: orange;
+	color: lightseagreen;
 }
 
 /* Main Nav Padding from Portfolio Btn */
@@ -69,6 +75,14 @@ p {
     text-align: center;
 }
 
+/* Cursor Trail */
+.trail { 
+    position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: black;
+}
+
 /* Fade in Animation */
 @keyframes animate
 {
@@ -81,3 +95,4 @@ p {
 		opacity: 0;
 	}
 }
+
