@@ -1,3 +1,4 @@
+/* Main Style */
 .main {
 	margin: 0;
 	padding: 0;
@@ -9,21 +10,14 @@
 	width: 100%;
 }
 
+/* Name Title Style */
 .main h1 {
 	font-size: 4em;
 	font-family: 'Open Sans', sans-serif;
 	animation: animate 1s linear;
 }
 
-label, h2, h3, p {
-	font-family: 'Poiret One', cursive;
-	animation: animate 2s linear
-}
-
-.nav h3 a:hover {
-	color: orange;
-}
-
+/* Main Nav About, Portfolio, Contact */
 .nav h3 {
 	display: inline;
 	font-family: 'Poiret One', cursive;
@@ -31,29 +25,51 @@ label, h2, h3, p {
 	animation: animate 3s linear;
 }
 
+/* Main Nav Hover Effect */
+.nav h3 a:hover {
+	color: orange;
+}
+
+/* Main Nav Padding from Portfolio Btn */
 .centerNav {
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-
+/* Sub Nav for Portfolio */
 .portfolioBtns button {
 	text-align: center;
 	margin-top: 20px;
 	animation: animate 2s linear
 }
 
+/* About & Contacts Style (title & label) */
+label, h2, h3 {
+	font-family: 'Poiret One', cursive;
+	animation: animate 2s linear
+}
 
+/* Paragraph Content Style (About & Portfolio) */
+p {
+	font-family: 'Poiret One', cursive;
+	font-size: large;
+	font-weight: 500;
+	animation: animate 2s linear
+}
+
+/* Contact Submit Btn */
 #submitBtn {
 	float: right;
 	font-family: 'Poiret One', cursive;
 }
 
+/* Contact Socials Btn */
 .myDetails {
 	margin-top: 100px;
     text-align: center;
 }
 
+/* Fade in Animation */
 @keyframes animate
 {
 	0%
@@ -65,12 +81,3 @@ label, h2, h3, p {
 		opacity: 0;
 	}
 }
-
-.trail { /* className for the trail elements */
-    position: absolute;
-    height: 6px; width: 6px;
-    border-radius: 3px;
-    background: orange;
-  }
-
-/* .none {cursor: none;} */
