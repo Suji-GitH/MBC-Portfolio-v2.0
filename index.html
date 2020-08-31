@@ -7,7 +7,7 @@
 	<title>Portfolio-SR</title>
 
 	<!-- fav icon -->
-	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
 	<!-- UIkit style sheet -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
 	<!-- Google Font -->
@@ -38,9 +38,18 @@
 		</div>
 		<!-- Portfolio Navigation -->
 		<section class="portfolioBtns">
-			<button class="uk-button uk-button-text" href="#modal-PFP" uk-toggle>Personal Fitness Planner</button>
-			<button class="uk-button uk-button-text centerNav" href="#modal-WD" uk-toggle>Weather Dashboard</button>
-			<button class="uk-button uk-button-text" href="#modal-PG" uk-toggle>Password Generator</button>
+			<div class="portfolioGroup1">
+				<button class="uk-button uk-button-text" href="#modal-PFP" uk-toggle>Personal Fitness Planner</button>
+				<button class="uk-button uk-button-text centerNav" href="#modal-WD" uk-toggle>Weather Dashboard</button>
+				<button class="uk-button uk-button-text" href="#modal-PG" uk-toggle>Password Generator</button>
+			</div>
+
+			<div class="portfolioGroup2">
+				<button class="uk-button uk-button-text" href="#modal-ET" uk-toggle>Employee Tracker</button>
+				<button class="uk-button uk-button-text centerNav" href="#modal-ChatApp" uk-toggle>Anonymous Chat
+					Application</button>
+				<button class="uk-button uk-button-text" href="#modal-NT" uk-toggle>Note Taker</button>
+			</div>
 		</section>
 	</section>
 	<!-- Main Navigation End -->
@@ -74,22 +83,28 @@
 				<!-- Background Side Image -->
 				<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
 					<div class="uk-background-cover" style="background-image: url('./assets/img/Screenshots/PFP.jpg');"
-					uk-height-viewport></div>
-					<div class="uk-transition-scale-up uk-background-cover uk-position-cover" style="background-image: url('./assets/img/Screenshots/PFP2.jpg');"
-					uk-height-viewport></div>
+						uk-height-viewport></div>
+					<div class="uk-transition-scale-up uk-background-cover uk-position-cover"
+						style="background-image: url('./assets/img/Screenshots/PFP2.jpg');" uk-height-viewport></div>
 				</div>
 				<div class="uk-padding-large">
 					<!-- Title -->
 					<h1>Personal Fitness Planner</h1>
 					<!-- App Description -->
 					<p>
-						With recent event of global pandemic, your whole gym routine and schedule are thrown off and with restriction slowly lifting away, people will be getting back at it. However you would need a new routine and schedule to get back to where you were. 
+						With recent event of global pandemic, your whole gym routine and schedule are thrown off and
+						with restriction slowly lifting away, people will be getting back at it. However you would need
+						a new routine and schedule to get back to where you were.
 
-						The application Personal Fitness Planner(PFP) was built as solution to this problem. It simply Generates your personalized fitness plan according to your fitness goal. 
+						The application Personal Fitness Planner(PFP) was built as solution to this problem. It simply
+						Generates your personalized fitness plan according to your fitness goal.
 					</p>
 					<!-- Application and Repository Buttons -->
-					<a class="uk-button uk-button-secondary uk-button-small" href="https://ben-j-st.github.io/projectOne---bootcamp/index.html" target="_blank">Application Link</a>
-					<a class="uk-button uk-button-default uk-button-small" href="https://github.com/ben-j-st/projectOne---bootcamp" target="_blank">Repository Link</a>
+					<a class="uk-button uk-button-secondary uk-button-small"
+						href="https://ben-j-st.github.io/projectOne---bootcamp/index.html" target="_blank">Application
+						Link</a>
+					<a class="uk-button uk-button-default uk-button-small"
+						href="https://github.com/ben-j-st/projectOne---bootcamp" target="_blank">Repository Link</a>
 				</div>
 			</div>
 		</div>
@@ -103,21 +118,30 @@
 			<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
 				<!-- Background Side Image -->
 				<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-					<div class="uk-background-top-left uk-background-cover" style="background-image: url('./assets/img/Screenshots/WeatherDash.jpg');"
-					uk-height-viewport></div>
-					<div class="uk-transition-scale-up uk-background-cover uk-position-cover" style="background-image: url('./assets/img/Screenshots/WeatherDash2.jpg');"
-					uk-height-viewport></div>
+					<div class="uk-background-top-left uk-background-cover"
+						style="background-image: url('./assets/img/Screenshots/WeatherDash.jpg');" uk-height-viewport>
+					</div>
+					<div class="uk-transition-scale-up uk-background-cover uk-position-cover"
+						style="background-image: url('./assets/img/Screenshots/WeatherDash2.jpg');" uk-height-viewport>
+					</div>
 				</div>
+
 				<div class="uk-padding-large">
 					<!-- Title -->
 					<h1>Weather Dashboard</h1>
 					<!-- App Description -->
 					<p>
-						This is a Weather Dashboard application built for Globe trotter that wants to see the weather outlook for multiple cities so they can plan a trip accordingly. The app also accommodates for 5-Day forecast and my personal highlight for the application is the change of backgrounds according to the weather condition. 
+						This is a Weather Dashboard application built for Globe trotter that wants to see the weather
+						outlook for multiple cities so they can plan a trip accordingly. The app also accommodates for
+						5-Day forecast and my personal highlight for the application is the change of backgrounds
+						according to the weather condition.
 					</p>
 					<!-- Application and Repository Buttons -->
-					<a class="uk-button uk-button-secondary uk-button-small" href="https://suji-gith.github.io/MBC-WeatherDashboard/WeatherDashboard.html" target="_blank">Application Link</a>
-					<a class="uk-button uk-button-default uk-button-small" href="https://github.com/Suji-GitH/MBC-WeatherDashboard" target="_blank">Repository Link</a>
+					<a class="uk-button uk-button-secondary uk-button-small"
+						href="https://suji-gith.github.io/MBC-WeatherDashboard/WeatherDashboard.html"
+						target="_blank">Application Link</a>
+					<a class="uk-button uk-button-default uk-button-small"
+						href="https://github.com/Suji-GitH/MBC-WeatherDashboard" target="_blank">Repository Link</a>
 				</div>
 			</div>
 		</div>
@@ -131,26 +155,125 @@
 			<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
 				<!-- Background Side Image -->
 				<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-					<div class="uk-background-cover" style="background-image: url('./assets/img/Screenshots/PassGen.jpg');"
-					uk-height-viewport></div>
-					<div class="uk-transition-scale-up uk-background-cover uk-position-cover" style="background-image: url('./assets/img/Screenshots/PassGen2.jpg');"
-					uk-height-viewport></div>
+					<div class="uk-background-cover"
+						style="background-image: url('./assets/img/Screenshots/PassGen.jpg');" uk-height-viewport></div>
+					<div class="uk-transition-scale-up uk-background-cover uk-position-cover"
+						style="background-image: url('./assets/img/Screenshots/PassGen2.jpg');" uk-height-viewport>
+					</div>
 				</div>
 				<div class="uk-padding-large">
 					<!-- Title -->
 					<h1>Password Generator</h1>
 					<!-- App Description -->
 					<p>
-						 This is a Matrix themed random password generator that meets certain criteria to create a strong password that provides greater security. Follow the input textarea description to begin, there are multiple buttons but one of them does a little more than generate the a password! 
+						This is a Matrix themed random password generator that meets certain criteria to create a strong
+						password that provides greater security. Follow the input textarea description to begin, there
+						are multiple buttons but one of them does a little more than generate the a password!
 					</p>
 					<!-- Application and Repository Buttons -->
-					<a class="uk-button uk-button-secondary uk-button-small" href="https://suji-gith.github.io/MBC-PasswordGenerator/Rdm-PassGen.html" target="_blank">Application Link</a>
-					<a class="uk-button uk-button-default uk-button-small" href="https://github.com/Suji-GitH/MBC-PasswordGenerator" target="_blank">Repository Link</a>
+					<a class="uk-button uk-button-secondary uk-button-small"
+						href="https://suji-gith.github.io/MBC-PasswordGenerator/Rdm-PassGen.html"
+						target="_blank">Application Link</a>
+					<a class="uk-button uk-button-default uk-button-small"
+						href="https://github.com/Suji-GitH/MBC-PasswordGenerator" target="_blank">Repository Link</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- Modal Password Generator End -->
+
+	<!-- Modal Employee Tracker Start -->
+	<div id="modal-ET" class="uk-modal-full" uk-modal>
+		<div class="uk-modal-dialog">
+			<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+			<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+				<!-- Background Side Image -->
+				<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+					<div class="uk-background-cover" style="background-image: url('./assets/img/Screenshots/ET.jpg');"
+						uk-height-viewport></div>
+					<div class="uk-transition-scale-up uk-background-cover uk-position-cover"
+						style="background-image: url('./assets/img/Screenshots/ET2.jpg');" uk-height-viewport></div>
+				</div>
+				<div class="uk-padding-large">
+					<!-- Title -->
+					<h1>Employee Tracker</h1>
+					<!-- App Description -->
+					<p>
+						A Node application utilizing sql database to view and manage the departments, roles, and employees in my company so that employer can organize and plan their business accordingly.  
+					</p>
+					<!-- Application and Repository Buttons -->
+					<a class="uk-button uk-button-secondary uk-button-small"
+						href="https://drive.google.com/file/d/1oKntvY9yuWQ0UGPdl37qX0hO6DrrAfu3/view?usp=sharing" target="_blank">Application Demo
+						Link</a>
+					<a class="uk-button uk-button-default uk-button-small"
+						href="https://github.com/Suji-GitH/MBC-Employee-Tracker" target="_blank">Repository Link</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Employee Tracker End -->
+
+	<!-- Modal Anonymous Web Chat Application Start -->
+	<div id="modal-ChatApp" class="uk-modal-full" uk-modal>
+		<div class="uk-modal-dialog">
+			<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+			<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+				<!-- Background Side Image -->
+				<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+					<div class="uk-background-cover" style="background-image: url('./assets/img/Screenshots/ChatApp.jpg');"
+						uk-height-viewport></div>
+					<div class="uk-transition-scale-up uk-background-cover uk-position-cover"
+						style="background-image: url('./assets/img/Screenshots/ChatApp2.jpg');" uk-height-viewport></div>
+				</div>
+				<div class="uk-padding-large">
+					<!-- Title -->
+					<h1>Anonymous Web Chat Application</h1>
+					<!-- App Description -->
+					<p>
+						Digital information has become our part of social life and industrial activity for mankind. However, today's networks are vulnerable to numerous risks, such as information leakage, privacy infringement and data corruption. Through this research, we have developed an anonymous chat application. 
+					</p>
+					<!-- Application and Repository Buttons -->
+					<a class="uk-button uk-button-secondary uk-button-small"
+						href="https://chirpgram.herokuapp.com/" target="_blank">Application
+						Link</a>
+					<a class="uk-button uk-button-default uk-button-small"
+						href="https://github.com/Suji-GitH/MBC-ProjectTwo" target="_blank">Repository Link</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Anonymous Web Chat Application End -->
+
+	<!-- Modal Note Taker Start -->
+	<div id="modal-NT" class="uk-modal-full" uk-modal>
+		<div class="uk-modal-dialog">
+			<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+			<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+				<!-- Background Side Image -->
+				<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+					<div class="uk-background-cover" style="background-image: url('./assets/img/Screenshots/NT.jpg');"
+						uk-height-viewport></div>
+					<div class="uk-transition-scale-up uk-background-cover uk-position-cover"
+						style="background-image: url('./assets/img/Screenshots/NT2.jpg');" uk-height-viewport></div>
+				</div>
+				<div class="uk-padding-large">
+					<!-- Title -->
+					<h1>Note Taker</h1>
+					<!-- App Description -->
+					<p>
+						A Node application hosted on heroku, that helps user to be able to write, save, and delete notes they have written before. It helps organize users thoughts and keep track of tasks they need to complete.
+					</p>
+					<!-- Application and Repository Buttons -->
+					<a class="uk-button uk-button-secondary uk-button-small"
+						href="https://thawing-tundra-80064.herokuapp.com/" target="_blank">Application
+						Link</a>
+					<a class="uk-button uk-button-default uk-button-small"
+						href="https://github.com/Suji-GitH/MBC-Note-Taker" target="_blank">Repository Link</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal Note Taker End -->
 
 	<!-- Contacts Start -->
 	<div id="offcanvas-slide" uk-offcanvas="overlay: true; flip: true">
@@ -194,13 +317,20 @@
 			<!-- Social Contacts -->
 			<div class="myDetails">
 				<!-- GitHub -->
-				<a href="https://github.com/Suji-GitH" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="github"></a>
+				<a href="https://github.com/Suji-GitH" target="_blank" class="uk-icon-button uk-margin-small-right"
+					uk-icon="github" uk-tooltip="github"></a>
 				<!-- LinkedIn -->
-				<a href="https://www.linkedin.com/in/suji-r-8550a01a5/" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="linkedin"></a>
+				<a href="https://www.linkedin.com/in/s-r-8550a01a5/" 
+					class="uk-icon-button uk-margin-small-right" uk-icon="linkedin" uk-tooltip="Linkedin"></a>
+				<!-- Resume -->
+				<a href="./assets/Resume/Resume.pdf" target="_blank" class="uk-icon-button uk-margin-small-right" uk-icon="file-pdf"
+					uk-tooltip="Resume"></a>
 				<!-- Email -->
-				<a class="uk-icon-button uk-margin-small-right" uk-icon="mail" uk-toggle="target: #toggle-mail"></a>
+				<a class="uk-icon-button uk-margin-small-right" uk-icon="mail" uk-toggle="target: #toggle-mail"
+					uk-tooltip="Email"></a>
 				<!-- Phone -->
-				<a class="uk-icon-button uk-margin-small-right" uk-icon="receiver" uk-toggle="target: #toggle-phone"></a>
+				<a class="uk-icon-button uk-margin-small-right" uk-icon="receiver" uk-toggle="target: #toggle-phone"
+					uk-tooltip="Mobile Number"></a>
 				<!-- Email & Phone details -->
 				<p id="toggle-mail">Email: Sujithranjitk@gmail.com</p>
 				<p id="toggle-phone">Mobile: 0430 165 467</p>
@@ -222,4 +352,5 @@
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </body>
+
 </html>
